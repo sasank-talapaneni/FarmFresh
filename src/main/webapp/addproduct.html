@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Add Product</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        
+        input[type="text"],
+        input[type="number"],
+        input[type="file"] {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Add Product</h1>
+
+    <form action="addproduct.jsp" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+        
+        <label for="category">Category</label>
+        <input type="text"  name="category" required>
+        
+        <label for="price">Price:</label>
+        <input type="number" name="price" required>
+        
+        <label for="image">Image:</label>
+        <input type="text"  name="image" required>
+        
+        <input type="submit" value="Add Product">
+    </form>
+       
+</body>
+</html>
