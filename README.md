@@ -18,13 +18,17 @@ Admin :
 
 -> Admins can add, update, and delete agricultural product listings. They can organize products  and ensure that all product details such as price, quantity, 
 and description are accurate and up-to-date.
+
 -> Admins can view all customer orders, manage orders. They can also handle customer inquiries and resolve any issues related to orders.
+
 -> Admins have the ability to manage user accounts and can view all users,products.
 
 Customers :
 
 -> Customers can browse through various agricultural products, view product information, and make purchases.
+
 -> They can add products to their cart, proceed to checkout.
+
 -> Customers can view their order history.
 
 User Registration / Sign Up :
